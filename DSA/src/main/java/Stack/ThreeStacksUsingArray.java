@@ -11,7 +11,7 @@ public class ThreeStacksUsingArray {
 
     public void push(int stack, int number) {
         int top;
-        if (stack == 1) {
+         if (stack == 1) {
             top = top_1 + 3;
             top_1 = top;
         } else if (stack == 2) {
