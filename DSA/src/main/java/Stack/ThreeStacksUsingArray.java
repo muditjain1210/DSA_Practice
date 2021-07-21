@@ -9,7 +9,7 @@ public class ThreeStacksUsingArray {
     private int top_2 = -2;
     private int top_3 = -1;
 
-    public void push(int stack, int number) {
+     public void push(int stack, int number) {
         int top;
          if (stack == 1) {
             top = top_1 + 3;
